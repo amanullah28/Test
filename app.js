@@ -11,7 +11,7 @@ app.get("/", function(req, res){
     res.render("home");
 });
 
-app.get(route, function(req, res){
+app.get("/about", function(req, res){
     res.render("about");
 });
 
